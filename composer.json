@@ -1,0 +1,22 @@
+{
+    "name": "nsrosenqvist/phulp-changed",
+    "description": "The changed files filter addon for phulp",
+    "keywords": ["phulpplugin", "phulp"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Niklas Rosenqvist",
+            "email": "niklas.s.rosenqvist@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NSRosenqvist\\Phulp": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "reisraff/phulp-filter": "^2.0"
+    }
+}
